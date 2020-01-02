@@ -2,9 +2,15 @@
 
 
 
+.links {
+
+float:right;
+
+}
+
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0px;
   padding: 0;
   overflow: hidden;
   background-color: white;
@@ -32,7 +38,7 @@ li a {
 li a:hover {
   background-color: rgb(74,170,165);
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 14px 16px 27px 16px;
 }
 .active {
@@ -98,6 +104,7 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 p {
 
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+text-align: justify;
 
 }
  
@@ -258,6 +265,169 @@ margin-right: auto;
   }
 }
 
+@media only screen and (max-width: 640px) {
+ 
+.responsive  {
+
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+
+  display:block;
+  padding:20px 20px 20px 20px;
+}
+}
 
 
+@media only screen and (max-width: 640px) {
+ 
+.box1   {
+
+  width:100%;
+  max-width: 450px;
+    height: auto;
+  display:block;
+  padding:20px 20px 20px 20px;
+
+}
+}
+
+@media only screen and (max-width: 640px) {
+.text {
+
+display: none;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+.other-text {
+
+display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 640px) {
+.box1:hover .other-text {
+
+  display:none;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.nameswitch {
+    
+  display:block;
+  width:100%;
+}
+}
+
+
+@media only screen and (max-width: 640px) {
+li {
+  float: none;
+   background-color: white;
+  color: black;
+}
+}
+
+
+@media only screen and (max-width: 640px) {
+.links {
+
+float:none;
+display:inline-block;
+
+
+
+
+}
+}
+@media only screen and (max-width: 640px) {
+
+li a:hover {
+  background-color: rgb(74,170,165);
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px 14px 16px;
+
+}}
+
+@media only screen and (max-width: 640px) {
+
+#rlink {
+  float:left;
+    margin: 0 0 0 0%;
+}}
+
+
+@media only screen and (max-width: 640px) {
+
+#llink {
+  float:left;
+    margin: 0 10vw 0 18vw;
+}}
+
+@media only screen and (max-width: 640px) {
+
+#mlink {
+  float:left;
+    margin: 0 10vw 0 0%;
+}}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+#rlink {
+  float:left;
+    margin: 0 0 0 0%;
+}}
+
+
+@media only screen and (max-width: 600px) {
+
+#llink {
+  float:left;
+    margin: 0 7vw 0 18vw;
+}}
+
+@media only screen and (max-width: 600px) {
+
+#mlink {
+  float:left;
+    margin: 0 7vw 0 0%;
+}}
+
+
+
+
+
+
+@media only screen and (max-width: 560px) {
+
+#rlink {
+  float:left;
+    margin: 0 0 0 0%;
+}}
+
+
+@media only screen and (max-width: 560px) {
+
+#llink {
+  float:left;
+    margin: 0 4vw 0 18vw;
+}}
+
+@media only screen and (max-width: 560px) {
+
+#mlink {
+  float:left;
+    margin: 0 4vw 0 0%;
+}}
 
